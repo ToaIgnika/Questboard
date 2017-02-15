@@ -1,0 +1,59 @@
+body
+{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+header h1
+{
+	text-align: center;
+}
+main
+{
+	border: 5px solid black;
+	overflow: auto;
+	height: 400px;
+	
+}
+#left
+{
+	float: left;
+	width: 50%;
+	height: 100%;
+	border-bottom: black solid;
+}
+#right
+{
+	float: right;
+	width: 49.59%;
+	border-left: solid black;
+	margin-right:0;
+	margin-left: 0;
+	border-bottom: black solid;
+	height: 100%;
+	
+}
+.miniHeading
+{
+	height: 10%;
+}	
+.miniHeading p
+{
+	border-bottom: black solid;
+	margin-top: 0px;
+}
+.middle
+{
+	margin-left:25%;
+	margin-right: 25%;
+	height: 80%;
+	
+}
+.middle h2
+{
+	text-align: center;
+	
+}
+.middle label
+{
+
+}
