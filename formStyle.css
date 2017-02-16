@@ -3,37 +3,42 @@ body
 	margin-left: 5%;
 	margin-right: 5%;
 	height: 100%;
+	background-color: #FDA474;
+	color: #ffefff;
 }
 header h1
 {
 	text-align: center;
+	background-color: #FDA474;
+	
 }
 main
 {
-	border: 5px solid black;
+	border: 5px solid #1c1921;
 	overflow: hidden;
-	height: 400px;
-	
-	
+	height: 400px;	
+	background-color: #1c1921;
 }
 #left
 {
 	float: left;
 	width: 50%;
 	height: 95%;
-	border-bottom: black solid;
-	margin-bottom:1%  
+	border-bottom: #1c1921 solid;
+	margin-bottom:1%;
+	background-color: #FDA474;	
 }
 #right
 {
 	float: right;
 	width: 49.59%;
-	border-left: solid black;
+	border-left: solid #1c1921;
 	margin-right:0;
 	margin-left: 0;
 	height: 95%;
-	border-bottom: black solid;
-	margin-bottom: 5%
+	border-bottom: #1c1921 solid;
+	margin-bottom: 5%;
+	background-color: #FDA474;
 	
 }
 .miniHeading
@@ -42,8 +47,9 @@ main
 }	
 .miniHeading p
 {
-	border-bottom: black solid;
+	border-bottom: #1c1921 solid;
 	margin-top: 0px;
+	background-color: #1c1921;
 }
 .middle
 {
@@ -61,4 +67,9 @@ main
 input
 {
 	margin-bottom: 10px;
+}
+input[type = submit]
+{
+	background-color: #1c1921;
+	color: #ffefff;
 }
