@@ -1,44 +1,48 @@
 body
 {
-	margin-left: 5%;
-	margin-right: 5%;
-	height: 100%;
+	margin-left: 3em;
+	margin-right: 3em;
+	height: 400px;
 	background-color: #FDA474;
 	color: #ffefff;
+	width: 700px;
 }
 header h1
 {
 	text-align: center;
 	background-color: #FDA474;
+	height: 15%;
 	
 }
 main
 {
-	border: 5px solid #1c1921;
 	overflow: hidden;
-	height: 400px;	
+	height: 100%;	
 	background-color: #1c1921;
+	padding-bottom: 5%;
+	width: 700px;
 }
 #left
 {
 	float: left;
-	width: 50%;
-	height: 95%;
-	border-bottom: #1c1921 solid;
-	margin-bottom:1%;
-	background-color: #FDA474;	
+	width: 342.5px;
+	height:100%;
+	border-bottom: #1c1921 15px solid;
+	background-color: #FDA474;
+	border-left: solid 5px #1c1921;
+	
 }
 #right
 {
 	float: right;
-	width: 49.59%;
-	border-left: solid #1c1921;
+	width: 342.5px;
+	border-left: solid 5px #1c1921;
 	margin-right:0;
 	margin-left: 0;
-	height: 95%;
-	border-bottom: #1c1921 solid;
-	margin-bottom: 5%;
+	height: 100%;
+	border-bottom: #1c1921 15px solid;
 	background-color: #FDA474;
+	border-right: solid 5px #1c1921;
 	
 }
 .miniHeading
@@ -55,6 +59,7 @@ main
 {
 	margin-left:25%;
 	margin-right: 25%;
+	height: 90%
 
 	
 }
