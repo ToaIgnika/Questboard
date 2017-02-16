@@ -57,6 +57,7 @@ body
 #content1
 {
 	width: 250px; 
+	height: 250px;
 	float: left;
 	background-color: #FDA474;
 	margin-right: 25px;
@@ -64,6 +65,7 @@ body
 #content2 
 {
 	width: 250px;
+	height: 250px;
 	float: left;
 	background-color: #FDA474;
 	margin-right: 25px;
@@ -71,8 +73,35 @@ body
 #content3 
 {
 	width: 250px;
+	height: 250px;
 	float: left;
 	background-color: #FDA474;
+}
+#content4
+{
+	width: 250px; 
+	height: 250px;
+	float: left;
+	background-color: #FDA474;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+#content5 
+{
+	width: 250px;
+	height: 250px;
+	float: left;
+	background-color: #FDA474;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+#content6 
+{
+	width: 250px;
+	height: 250px;
+	float: left;
+	background-color: #FDA474;
+	margin-top: 25px;
 }
 .blocktext
 {
@@ -80,24 +109,12 @@ body
 	padding-right: 3px;
 }
 /*-------------------FOOTER*/
-#footer 
+.footer 
 {
-	width: 300px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#footer ul
-{
-	list-style-type: none;
-	vertical-align: middle;
-	display: table;
-}
-
-#footer li 
-{
-	display: table-cell;
-    
-    border: 1px solid #bbb;
-	padding: 10px 10px;
+	text-align: center;
+	height: 100px;
+	width: 800px;
+	float: left;
+	color: white;
+	font-size: 14px;	
 }
