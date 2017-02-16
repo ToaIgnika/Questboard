@@ -14,50 +14,38 @@ body
 /*--------------------------PANEL*/
 #panel 
 {
-	width: 600px;
-	margin-left: auto;
-	margin-right: auto;
+
 }
 #panel ul 
 {
-	table-layout: fixed;
-	vertical-align: middle;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: red;
-	display: table;
+	list-style-type:none;
+	margin:60px 20px 20px 100px;
+	padding:0;
+	overflow:hidden;
+	background-color:#333;
 }
 #panel li 
 {
-	display: table-cell;
-    float: left;
-    border-right: 1px solid #bbb;
+	float:left;
+	text-decoration:none;
 }
 #panel li a 
 {
 	
-    color: black;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
+    display:block;
+	text-align:center;
+	padding:14px 30px;
+	text-decoration:none;
+	color:white;
 }
-#panel a
+#panel li a:hover:not(.login)
 {
-	font-size: 30px;
+	background-color:#FDA474;
 }
-.news 
+#panel li.login
 {
-    background-color: #4CAF50;
-}
-#login 
-{
-	float: right;
-}
-#panel li a:hover 
-{
-    background-color: #111;
+	float:right;
+	background-color:#FDA474;
 }
 /*-------------------CONTENT*/
 #content 
