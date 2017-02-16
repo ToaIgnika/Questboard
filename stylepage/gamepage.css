@@ -3,56 +3,82 @@ body
 	width: 800px;
 	margin: auto;
 	font-family: Tahoma, Calibri, sans-serif;
-	background-color: yellow;
+	background-color: #333;
 }
-#header 
+.header 
 {
 	text-align: center;
 	margin: 0px;
 	padding: 0px;
 }
 /*--------------------------PANEL*/
-#panel 
-{
 
-}
-#panel ul 
+.navbar  
 {
 	list-style-type:none;
-	margin:60px 20px 20px 100px;
+	margin:0px 0px 20px 0px; /* left,right,bottom,top*/
 	padding:0;
 	overflow:hidden;
 	background-color:#333;
 }
-#panel li 
+.navbar li:not(.home)
 {
 	float:left;
 	text-decoration:none;
+	border: solid #FDA474 1px;
 }
-#panel li a 
+.navbar li a:not(.home)
 {
-	
     display:block;
 	text-align:center;
 	padding:14px 30px;
 	text-decoration:none;
 	color:white;
 }
-#panel li a:hover:not(.login)
+.navbar li a.home
+{
+	display:block;
+	text-align:center;
+	padding:0px 0px;
+	text-decoration:none;
+	color:white;
+}
+.navbar li a:hover:not(.login)
 {
 	background-color:#FDA474;
 }
-#panel li.login
+.navbar li.login
 {
 	float:right;
 	background-color:#FDA474;
 }
 /*-------------------CONTENT*/
-#content 
-{
-	background-color: blue;
-}
 
+#content1
+{
+	width: 250px; 
+	float: left;
+	background-color: #FDA474;
+	margin-right: 25px;
+}
+#content2 
+{
+	width: 250px;
+	float: left;
+	background-color: #FDA474;
+	margin-right: 25px;
+}
+#content3 
+{
+	width: 250px;
+	float: left;
+	background-color: #FDA474;
+}
+.blocktext
+{
+	padding-left: 7px;
+	padding-right: 3px;
+}
 /*-------------------FOOTER*/
 #footer 
 {
@@ -71,7 +97,7 @@ body
 #footer li 
 {
 	display: table-cell;
-    float: left;
+    
     border: 1px solid #bbb;
 	padding: 10px 10px;
 }
