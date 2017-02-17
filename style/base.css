@@ -56,10 +56,33 @@ table
 	margin-left:auto;
 	margin-right:auto;
 	width: 100%;
+	border-collapse: collapse;
+	border: solid;
 }
-.td h2
+table th
+{
+	text-align: left;
+}
+table h2
 {
 	text-align: center;
+}
+td
+{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+form
+{
+	padding-left: 15%;
+}
+input
+{
+	width:75%;
+}
+input[type = submit]
+{
+	width: auto;
 }
 .header 
 {
