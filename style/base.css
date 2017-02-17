@@ -48,8 +48,8 @@ body
 header h1
 {
 	text-align: center;
-	background-color: #FDA474;
 	height: 15%;
+	color:white;
 }
 table
 {
@@ -57,15 +57,17 @@ table
 	margin-right:auto;
 	width: 100%;
 	border-collapse: collapse;
-	border: solid;
+	border: solid #FDA474;
 }
 table th
 {
 	text-align: left;
+	color: white;
 }
 table h2
 {
 	text-align: center;
+	color: white;
 }
 td
 {
@@ -75,10 +77,13 @@ td
 form
 {
 	padding-left: 15%;
+	color: white;
 }
 input
 {
 	width:75%;
+	margin-bottom: 10px;
+
 }
 input[type = submit]
 {
