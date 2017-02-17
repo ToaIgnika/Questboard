@@ -1,1 +1,0 @@
-var username = document.getElementById("
