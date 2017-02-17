@@ -1,3 +1,10 @@
+body
+{
+	width: 800px;
+	margin: auto;
+	font-family: Tahoma, Calibri, sans-serif;
+	background-color: #333;
+}
 #bufferPage{
 	float:left;
 	width:1500px;
