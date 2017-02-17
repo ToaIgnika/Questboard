@@ -10,7 +10,7 @@ body
 #bufferPage{
 	float:left;
 	width:800px;
-	height:590px;
+	height:200px;
 	top:0;
 	margin-top:-10px;
 	margin-left:-10px;
@@ -22,7 +22,6 @@ body
 
 .firstSentence{
 	font-size: 15px;
-	padding-top:200px;
 }
 
 .secondSentence{
