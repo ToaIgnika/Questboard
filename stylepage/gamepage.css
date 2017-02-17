@@ -27,7 +27,7 @@ body
 	text-decoration:none;
 	border: solid #FDA474 1px;
 }
-.navbar li a:not(.home)
+.navbar li a
 {
     display:block;
 	text-align:center;
@@ -35,14 +35,21 @@ body
 	text-decoration:none;
 	color:white;
 }
-.navbar li a.home
+.navbar li.home a
 {
 	display:block;
 	text-align:center;
 	padding:0px 0px;
 	text-decoration:none;
 	color:white;
+	padding-right: 10px;
 }
+.navbar li.home 
+{
+	float:left;
+	text-decoration:none;
+}
+
 .navbar li a:hover:not(.login)
 {
 	background-color:#FDA474;
