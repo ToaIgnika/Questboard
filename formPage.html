@@ -20,7 +20,7 @@
 				</div>
 				<div class = "middle">
 					<h2>Welcome</h2> 
-					<form>
+					<form name = "login" method = "post" action= "http://webdevfoundations.net/scripts/formdemo.asp">
 						<label>Username:<br>
 						<input type = "text" name ="username" id = "username"><br></label>
 						<label>Password:<br>
@@ -36,11 +36,11 @@
 				</div>
 				<div class = "middle">
 					<h2>Sign up</h2> 
-					<form method = "post" action= "http://webdevfoundations.net/scrypts/formdemo.asp" on submit= "return validateForm()">
+					<form method = "post" action= "http://webdevfoundations.net/scripts/formdemo.asp" name = "reg">
 						<input type = "text" name ="username" placeholder="username">
-						<input type = "text" name ="email" placeholder = "email">
-						<input type = "text" name ="password" placeholder = "password">
-						<input type = "text" name ="conpassword" placeholder = "confirm password">
+						<input type = "email" name ="email" placeholder = "email">
+						<input type = "password" name ="password" placeholder = "password">
+						<input type = "password" name ="conpassword" placeholder = "confirm password">
 						<input type="submit" value="Submit">
 					</form>
 				</div>
