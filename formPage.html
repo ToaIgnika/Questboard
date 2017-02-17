@@ -2,6 +2,7 @@
 <html lang = "en">
 	<head>
 		<meta charset="utf-8" />
+		<script src= "registration-form.js"></script>
 		<link rel="stylesheet" href="stylepage/formStyle.css" />
 		<title>Questboard</title>
 	</head>
@@ -21,9 +22,9 @@
 					<h2>Welcome</h2> 
 					<form>
 						<label>Username:<br>
-						<input type = "text" name ="username"><br></label>
+						<input type = "text" name ="username" id = "username"><br></label>
 						<label>Password:<br>
-						<input type = "password" name ="password"><br></label>
+						<input type = "password" name ="password" id = "password"><br></label>
 						<input type="submit" value="Submit">
 					</form>
 					<p> </p>
@@ -35,7 +36,7 @@
 				</div>
 				<div class = "middle">
 					<h2>Sign up</h2> 
-					<form method = "get">
+					<form method = "post" action= "http://webdevfoundations.net/scrypts/formdemo.asp" on submit= "return validateForm()">
 						<input type = "text" name ="username" placeholder="username">
 						<input type = "text" name ="email" placeholder = "email">
 						<input type = "text" name ="password" placeholder = "password">
