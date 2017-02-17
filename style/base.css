@@ -56,8 +56,7 @@ table
 	margin-left:auto;
 	margin-right:auto;
 	width: 100%;
-	border-collapse: collapse;
-	border: solid #FDA474;
+	border: solid #FDA474 15px;
 }
 table th
 {
