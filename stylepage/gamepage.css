@@ -4,12 +4,14 @@ body
 	margin: auto;
 	font-family: Tahoma, Calibri, sans-serif;
 	background-color: #333; 
+	box-shadow: 0 0 10px white;
 }
 .header 
 {
 	text-align: center;
 	margin: 0px;
 	padding: 0px;
+	
 }
 /*--------------------------PANEL*/
 
@@ -50,10 +52,12 @@ body
 	text-decoration:none;
 }
 
-.navbar li a:hover:not(.login)
+.navbar li:not(.login):not(.home) a:hover
 {
 	background-color:#FDA474;
 }
+
+
 .navbar li.login
 {
 	float:right;
@@ -68,6 +72,7 @@ body
 	float: left;
 	background-color: #FDA474;
 	margin-right: 25px;
+	box-shadow: 0 0 10px white;
 }
 #content2 
 {
@@ -76,6 +81,7 @@ body
 	float: left;
 	background-color: #FDA474;
 	margin-right: 25px;
+	box-shadow: 0 0 10px white;
 }
 #content3 
 {
@@ -83,6 +89,7 @@ body
 	height: 250px;
 	float: left;
 	background-color: #FDA474;
+	box-shadow: 0 0 10px white;
 }
 #content4
 {
@@ -92,6 +99,7 @@ body
 	background-color: #FDA474;
 	margin-right: 25px;
 	margin-top: 25px;
+	box-shadow: 0 0 10px white;
 }
 #content5 
 {
@@ -101,6 +109,7 @@ body
 	background-color: #FDA474;
 	margin-right: 25px;
 	margin-top: 25px;
+	box-shadow: 0 0 10px white;
 }
 #content6 
 {
@@ -109,6 +118,7 @@ body
 	float: left;
 	background-color: #FDA474;
 	margin-top: 25px;
+	box-shadow: 0 0 10px white;
 }
 .blocktext
 {
