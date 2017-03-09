@@ -4,6 +4,7 @@ body
 	margin: auto;
 	font-family: Tahoma, Calibri, sans-serif;
 	background-color: #333; 
+	
 }
 /*--------------------------MAG CODE-----------*/
 
@@ -39,11 +40,13 @@ body
 	float:left;
 	width:800px;
 	height:120px;
+	border: 1px black solid;
 }
 .img img:hover
 {
-	border: 2px solid #FDA474;
+	box-shadow:2px 0px 0px 0px #FDA474, 0px 2px 0px 0px #FDA474, 0px 0px 2px 0px #FDA474,0px 0px 0px 2px #FDA474;
 }
+
 
 header h1
 {
