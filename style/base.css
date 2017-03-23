@@ -1,10 +1,14 @@
-body 
+body
 {
 	width: 800px;
 	margin: auto;
 	font-family: Tahoma, Calibri, sans-serif;
-	background-color: #333; 
-	
+	background-color: #222;
+}
+
+#main {
+	float: left;
+	background-color: #333;
 }
 /*--------------------------MAG CODE-----------*/
 
@@ -35,9 +39,18 @@ body
 	height:60px;
 }
 
+.img {
+	width: 100%;
+	text-align: center;
+	height: 125px;
+	float: left;
+	margin: auto;
+}
+
 .img img{
-	margin:5px;
-	float:left;
+	margin-top:5px;
+	margin-bottom: 5px;
+	text-align: center;
 	width:800px;
 	height:120px;
 	border: 1px black solid;
@@ -91,7 +104,7 @@ input[type = submit]
 {
 	width: auto;
 }
-.header 
+.header
 {
 	text-align: center;
 	margin: 0px;
@@ -99,7 +112,7 @@ input[type = submit]
 }
 /*--------------------------PANEL*/
 
-.navbar  
+.navbar
 {
 	list-style-type:none;
 	margin:0px 0px 20px 0px; /* left,right,bottom,top*/
@@ -130,7 +143,7 @@ input[type = submit]
 	color:white;
 	padding-right: 10px;
 }
-.navbar li.home 
+.navbar li.home
 {
 	float:left;
 	text-decoration:none;
@@ -141,81 +154,42 @@ input[type = submit]
 	background-color:#FDA474;
 }
 
-
 .navbar li.login
 {
 	float:right;
 	background-color:#FDA474;
 }
+
+.navbar .active {
+	font-weight: bold;
+	text-decoration: underline;
+}
 /*-------------------CONTENT*/
 
 #content1
 {
-	width: 250px; 
-	height: 250px;
-	float: left;
-	background-color: #FDA474;
-	margin-right: 25px;
-	box-shadow: 0 0 10px white;
-}
-#content2 
-{
 	width: 250px;
 	height: 250px;
 	float: left;
 	background-color: #FDA474;
-	margin-right: 25px;
+	margin: 8px;
 	box-shadow: 0 0 10px white;
 }
-#content3 
-{
-	width: 250px;
-	height: 250px;
-	float: left;
-	background-color: #FDA474;
-	box-shadow: 0 0 10px white;
-}
-#content4
-{
-	width: 250px; 
-	height: 250px;
-	float: left;
-	background-color: #FDA474;
-	margin-right: 25px;
-	margin-top: 25px;
-	box-shadow: 0 0 10px white;
-}
-#content5 
-{
-	width: 250px;
-	height: 250px;
-	float: left;
-	background-color: #FDA474;
-	margin-right: 25px;
-	margin-top: 25px;
-	box-shadow: 0 0 10px white;
-}
-#content6 
-{
-	width: 250px;
-	height: 250px;
-	float: left;
-	background-color: #FDA474;
-	margin-top: 25px;
-	box-shadow: 0 0 10px white;
-}
+
 .blocktext
 {
 	padding-left: 7px;
 	padding-right: 3px;
 }
 /*-------------------FOOTER*/
-.footer 
+.footer
 {
 	text-align: center;
-	height: 100px;
-	width: 800px;
+	border-top: 1px solid #FDA474;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
 	float: left;
 	color: white;
-	font-size: 14px;	
+	font-size: 14px;
 }
