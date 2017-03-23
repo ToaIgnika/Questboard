@@ -1,47 +1,62 @@
 <!DOCTYPE html>
 <html lang = "en">
-	<head>
-		<meta charset="utf-8" />
-		<script src= "registration-form.js"></script>
-		<link rel="stylesheet" href="style/base.css" />
-		<title>Questboard</title>
-	</head>
-	<body>
-		<header>
-			<h1>
-				 <a href="index.html"><img src="images/qboardlogo.png" alt="lightning" height = "50" width = "50"/></a>QUESTBOARD
-			</h1>
-		</header>
-		<table>
-			<tr>
-				<th>Log in:</th>
-				<th>Register:</th>
-			</tr>
-			<tr>
-				<td>
-					<h2>Welcome</h2> 
-					<form name = "login" method = "post" action= "http://webdevfoundations.net/scripts/formdemo.asp">
-						<label>Username:<br>
-						<input type = "text" name ="username" id = "username"><br></label>
-						<label>Password:<br>
-						<input type = "password" name ="password" id = "password"><br></label>
-						<input type="submit" value="Submit">
-					</form>
-				</td>
-				<td>
-					<h2>Sign up</h2> 
-					<form method = "post" action= "http://webdevfoundations.net/scripts/formdemo.asp" name = "reg">
-						<input type = "text" name ="username" id = "reguser" placeholder="username"><br>
-						<input type = "email" name ="email" id = "email" placeholder = "email"><br>
-						<input type = "password" name ="password" id = "regpassword" placeholder = "password"><br>
-						<input type = "password" name ="conpassword" id = "conpassword" placeholder = "confirm password"><br>
-						<input type="submit" value="Submit">
-					</form>
-				</td>
-			</tr>
-			<tr><td colspan ="2"></td></tr>
-		</table>
-		<footer>
-		</footer>
-	</body>
-</html>
+<head>
+	<meta charset="utf-8" />
+	<script src= "registration-form.js"></script>
+	<link rel="stylesheet" href="style/base.css" />
+	<title>Questboard</title>
+</head>
+<body>
+	<div id="main">
+		<div id="bufferPage">
+			<div class="secondSentence"><h1>Questboard</h1></div>
+		</div>
+
+		<div id="menu">
+			<ul class="navbar">
+				<li class="home"><a href="index.html"><img alt="logo" src="images/qboardlogo.png" width="49" height="49"></a></li>
+				<li><a href="hs/hs_news.html">News</a></li>
+				<li><a href="hs/hs_strategy.html">Strategy</a></li>
+				<li><a href="hs/hs_art.html">Art</a></li>
+				<li><a href="hs/hs_esport.html">Esports</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li class="login"><a class="active" href="form.html">Login</a></li>
+			</ul>
+		</div>
+		<div class="contactForm">
+			<table>
+				<tr>
+					<th>Log in:</th>
+					<th>Register:</th>
+				</tr>
+				<tr>
+					<td>
+						<h2>Welcome</h2>
+						<form name = "login" method = "post" action= "http://webdevfoundations.net/scripts/formdemo.asp">
+							<label>Username:<br>
+								<input type = "text" name ="username" id = "username"><br></label>
+								<label>Password:<br>
+									<input type = "password" name ="password" id = "password"><br></label>
+									<input type="submit" value="Submit">
+								</form>
+							</td>
+							<td>
+								<h2>Sign up</h2>
+								<form method = "post" action= "http://webdevfoundations.net/scripts/formdemo.asp" name = "reg">
+									<input type = "text" name ="username" id = "reguser" placeholder="username"><br>
+									<input type = "email" name ="email" id = "email" placeholder = "email"><br>
+									<input type = "password" name ="password" id = "regpassword" placeholder = "password"><br>
+									<input type = "password" name ="conpassword" id = "conpassword" placeholder = "confirm password"><br>
+									<input type="submit" value="Submit">
+								</form>
+							</td>
+						</tr>
+						<tr><td colspan ="2"></td></tr>
+					</table>
+				</div>
+				<div class="footer">
+					<p>Disclaimer &copy; : Team 24</p>
+				</div>
+			</div>
+		</body>
+		</html>

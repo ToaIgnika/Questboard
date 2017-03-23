@@ -1,30 +1,63 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
-		<meta charset="utf-8">	
+		<meta charset="utf-8">
 		<title>questboard</title>
-		<link rel="stylesheet" href="contact.css">
+		<link rel="stylesheet" href="style/base.css">
 	</head>
-	
+
 	<body>
+		<div id="main">
+		<div id="formHead">
+			<h1> <img alt="hsicon" src="images/logo.png" width="85px" height="100px"/>uestboard</h1>
+		</div>
+
+		<div id="menu">
+			<ul class="navbar">
+				<li class="home"><a href="index.html"><img alt="logo" src="images/qboardlogo.png" width="49" height="49"></a></li>
+				<li><a href="hs/hs_news.html">News</a></li>
+				<li><a href="hs/hs_strategy.html">Strategy</a></li>
+				<li><a href="hs/hs_art.html">Art</a></li>
+				<li><a href="hs/hs_esport.html">Esports</a></li>
+				<li><a class="active" href="contact.html">Contact</a></li>
+				<li class="login"><a href="form.html">Login</a></li>
+			</ul>
+		</div>
+
 		<div class="contactForm">
-			<h1>Contact Us</h1>
+			<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+<div id="SkypeButton_Call_godoftoa_1">
+ <script type="text/javascript">
+ Skype.ui({
+ "name": "dropdown",
+ "element": "SkypeButton_Call_godoftoa_1",
+ "participants": ["godoftoa"],
+ "imageColor": "white",
+ "imageSize": 32
+ });
+ </script>
+</div>
 			<form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" id="inputform">
 			<label for ="fname">First name</label>
 			<input type="text" id ="fname" name="firstname">
-			
+
 			<label for ="lname">Last name</label>
 			<input type="text" id ="lname" name ="lastname">
-			
+
 			<label for ="Email">Email</label>
 			<input type ="email" id ="email" name="emailAddress">
-			
+
 			<label for ="Comments">Comments</label>
 			<textarea id="comment" name="comments" style="height:200px">
 			</textarea>
-			
+
 			<input type="submit" value="Submit">
 			</form>
 		</div>
+		<div class="footer">
+			<p>Disclaimer &copy; : Team 24</p>
+		</div>
+	</div>
+
 	</body>
 </html>

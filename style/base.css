@@ -8,18 +8,19 @@ body
 
 #main {
 	float: left;
+	width: 100%;
 	background-color: #333;
 }
-/*--------------------------MAG CODE-----------*/
-
+.menu {
+	float: left;
+}
+/*--------------------------INDEX PAGE-----------*/
 #bufferPage{
 	float:left;
-	width:800px;
-	height:200px;
+	width:100%;
+	height:auto;
 	top:0;
-	margin-top:-10px;
-	margin-left:-10px;
-	padding:20px;
+	margin: auto;
 	color:white;
 	line-height:0;
 	text-indent:80px;
@@ -55,65 +56,16 @@ body
 	height:120px;
 	border: 1px black solid;
 }
-.img img:hover
-{
+.img img:hover {
 	box-shadow:2px 0px 0px 0px #FDA474, 0px 2px 0px 0px #FDA474, 0px 0px 2px 0px #FDA474,0px 0px 0px 2px #FDA474;
 }
 
-
-header h1
-{
-	text-align: center;
-	height: 15%;
-	color:white;
-}
-table
-{
-	margin-left:auto;
-	margin-right:auto;
-	width: 100%;
-	border: solid #FDA474 15px;
-}
-table th
-{
-	text-align: left;
-	color: white;
-}
-table h2
-{
-	text-align: center;
-	color: white;
-}
-td
-{
-	padding-left: 10%;
-	padding-right: 10%;
-}
-form
-{
-	padding-left: 15%;
-	color: white;
-}
-input
-{
-	width:75%;
-	margin-bottom: 10px;
-
-}
-input[type = submit]
-{
-	width: auto;
-}
-.header
-{
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
-}
 /*--------------------------PANEL*/
 
 .navbar
 {
+	width: 100%;
+	float:left;
 	list-style-type:none;
 	margin:0px 0px 20px 0px; /* left,right,bottom,top*/
 	padding:0;
@@ -180,6 +132,105 @@ input[type = submit]
 {
 	padding-left: 7px;
 	padding-right: 3px;
+}
+
+/*-----------------CONTACT FORM*/
+.contactForm h1{
+	margin-left: 100px;
+	font-size: 40px;
+	color: white;
+}
+.contactForm label{
+	margin-left: 0px;
+
+}
+.contactForm input[type="text"],
+.contactForm input[type="email"],
+.contactForm textarea{
+	width : 100%;
+	padding:12px;
+	border: 1px solid #ccc;
+	border-radius:4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	margin-left: 0px;
+	resize: vertical;
+}
+
+.contactForm input[type="submit"]{
+	background-color : black;
+	color: white;
+	padding :12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-align: center;
+	margin: auto;
+}
+
+.contactForm input[type="submit"]:hover{
+	background-color: #FDA474;
+	color: black;
+
+}
+
+.contactForm{
+	float: left;
+	border-radius: 5px;
+	padding:10px;
+	border-top: 1px solid #FDA474;
+}
+
+#formHead {
+	width: 100%;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+
+/*--------------ALEX*/
+
+table
+{
+	margin: auto;
+	width: 100%;
+	border: solid #FDA474 15px;
+}
+table th
+{
+	text-align: left;
+	color: white;
+}
+table h2
+{
+	text-align: center;
+	color: white;
+}
+td
+{
+	width: 50%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+form
+{
+	color: white;
+}
+input
+{
+	width:75%;
+	margin-bottom: 10px;
+}
+input[type = submit]
+{
+	width: auto;
+}
+.header
+{
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
 }
 /*-------------------FOOTER*/
 .footer
