@@ -200,7 +200,7 @@ input[type="submit"]:hover{
 	font-size:14px;
 	color:red;
 	visibility:hidden;
-}	
+}
 
 .userForm input[type="text"],
 .userForm input[type="password"],
@@ -222,7 +222,7 @@ input[type="submit"]:hover{
 	font-size:10px;
 	color:red;
 	visibility:hidden;
-}	
+}
 
 .userForm{
 	float: left;
@@ -278,7 +278,6 @@ label{
 table
 {
 	margin: auto;
-	padding: auto;
 	border: hidden #FDA474 15px;
 	width: 100%;
 }
