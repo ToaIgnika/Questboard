@@ -228,7 +228,7 @@ table
 {
 	margin: auto;
 	padding: auto;
-	border: solid #FDA474 15px;
+	border: hidden #FDA474 15px;
 	width: 100%;
 }
 table th
