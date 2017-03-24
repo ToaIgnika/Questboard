@@ -136,7 +136,6 @@ body
 
 /*-----------------CONTACT FORM*/
 .contactForm {
-	float: left;
 	margin-left: 15px;
 	margin-right: 15px;
 }
@@ -201,7 +200,7 @@ input[type="submit"]:hover{
 	font-size:14px;
 	color:red;
 	visibility:hidden;
-}	
+}
 
 .userForm input[type="text"],
 .userForm input[type="password"],
@@ -223,7 +222,7 @@ input[type="submit"]:hover{
 	font-size:10px;
 	color:red;
 	visibility:hidden;
-}	
+}
 
 .userForm{
 	float: left;
@@ -305,28 +304,6 @@ td
 	margin: 0px;
 	padding: 0px;
 }
-
-#skype {
-	width: 100%;
-	float: left;
-}
-
-#prescype {
-	max-width: 60%;
-	margin: 0px;
-	float: left;
-}
-#SkypeButton_Call_godoftoa_1 {
-	max-width: 40%;
-	max-height: 120px;
-	float:left;
-	margin: 0px;
-}
-#SkypeButton_Call_godoftoa_1  img {
-	margin:0 !important;
-	vertical-align:middle !important;
-}
-
 /*-------------------FOOTER*/
 .footer
 {

@@ -24,30 +24,29 @@
 				<li class="login"><a href="form.html">Login</a></li>
 			</ul>
 		</div>
-
-		<div class="contactForm">
-			<div id="skype">
-				<div id="preskype">
-					<h2>Contact via skype:</h2>
-				</div>
+		<div id="skype">
+			<div id="preskype">
+				<h2>Contact via skype:</h2>
+			</div>
 			<div id="SkypeButton_Call_godoftoa_1">
 			</div>
-			<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
-			<script type="text/javascript" src="js/skype.js"></script>
-			</div>
+
+		</div>
+		<div class="contactForm">
+
 			<form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" id="inputform" onsubmit="return submitContact()">
 				<label for ="fname">First name</label>
 				<input type="text" id ="fname" name="firstname" maxlength="10" oninput="warnFirstNameValid('fname')">
 				<p id="alertFirstName">Please enter first name</p>
-				
+
 				<label for ="lname">Last name</label>
 				<input type="text" id ="lname" name ="lastname" maxlength="10" oninput="warnLastNameValid('lname')">
 				<p id="alertLastName">Please enter last name</p>
-				
+
 				<label for ="email">Email</label>
 				<input type ="email" id ="emailCon" name="emailAddress" maxlength="30" oninput="warnEmailConValid('emailCon')" >
 				<p id="alertConEmail">Please enter e-mail addres</p>
-				
+
 				<label for ="comment">Comments</label>
 				<textarea id="comment" name="comments" style="height:200px" oninput="warnTextareaBlank('comment')">
 				</textarea>
@@ -59,5 +58,7 @@
 			<p>Disclaimer &copy; : Team 24</p>
 		</div>
 	</div>
+	<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+	<script type="text/javascript" src="js/skype.js"></script>
 </body>
 </html>
