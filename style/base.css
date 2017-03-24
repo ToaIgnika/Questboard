@@ -124,7 +124,7 @@ body
 	height: 250px;
 	float: left;
 	background-color: #FDA474;
-	margin: 16px;
+	margin: 8px;
 	box-shadow: 0 0 10px white;
 }
 
@@ -136,6 +136,7 @@ body
 
 /*-----------------CONTACT FORM*/
 .contactForm {
+	float: left;
 	margin-left: 15px;
 	margin-right: 15px;
 }
@@ -304,6 +305,28 @@ td
 	margin: 0px;
 	padding: 0px;
 }
+
+#skype {
+	width: 100%;
+	float: left;
+}
+
+#prescype {
+	max-width: 60%;
+	margin: 0px;
+	float: left;
+}
+#SkypeButton_Call_godoftoa_1 {
+	max-width: 40%;
+	max-height: 120px;
+	float:left;
+	margin: 0px;
+}
+#SkypeButton_Call_godoftoa_1  img {
+	margin:0 !important;
+	vertical-align:middle !important;
+}
+
 /*-------------------FOOTER*/
 .footer
 {
