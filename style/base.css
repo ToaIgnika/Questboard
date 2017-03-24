@@ -135,6 +135,10 @@ body
 }
 
 /*-----------------CONTACT FORM*/
+.contactForm {
+	margin-left: 15px;
+	margin-right: 15px;
+}
 .contactForm h1{
 	margin-left: 100px;
 	font-size: 40px;
@@ -158,7 +162,7 @@ body
 	resize: vertical;
 }
 
-.contactForm input[type="submit"]{
+ input[type="submit"]{
 	background-color : black;
 	color: white;
 	padding :12px 20px;
@@ -167,9 +171,10 @@ body
 	cursor: pointer;
 	text-align: center;
 	margin: auto;
+	border: solid #FDA474 1px;
 }
 
-.contactForm input[type="submit"]:hover{
+input[type="submit"]:hover{
 	background-color: #FDA474;
 	color: black;
 
@@ -204,22 +209,6 @@ body
 	resize: vertical;
 }
 
-.userForm input[type="submit"]{
-	background-color : black;
-	color: white;
-	padding :12px 20px;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-	text-align: center;
-	margin: auto;
-}
-
-.userForm input[type="submit"]:hover{
-	background-color: #FDA474;
-	color: black;
-
-}
 
 .userForm{
 	float: left;
@@ -245,6 +234,7 @@ body
 }
 
 #skype {
+	float: left;
 	width: 100%;
 	height: 120px;
 	color: white;
