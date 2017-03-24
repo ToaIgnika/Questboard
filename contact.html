@@ -3,13 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>questboard</title>
-	<link rel="stylesheet" href="style/base.css">
+	<link rel="stylesheet" href="style/base.css" />
+	<script src= "registration-form.js"></script>
 </head>
 
 <body>
 	<div id="main">
 		<div id="formHead">
-			<img src="images/banner.png" alt="bannerImage">
+			<img src="images/banner.png"/>
 		</div>
 
 		<div id="menu">
@@ -32,20 +33,23 @@
 			<div id="SkypeButton_Call_godoftoa_1">
 </div>
 			</div>
-			<form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" id="inputform">
+			<form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" id="inputform" onsubmit="return submitContact()">
 				<label for ="fname">First name</label>
-				<input type="text" id ="fname" name="firstname">
-
+				<input type="text" id ="fname" name="firstname" maxlength="10" oninput="warnFirstNameValid('fname')">
+				<p id="alertFirstName">Please enter first name</p>
+				
 				<label for ="lname">Last name</label>
-				<input type="text" id ="lname" name ="lastname">
-
+				<input type="text" id ="lname" name ="lastname" maxlength="10" oninput="warnLastNameValid('lname')">
+				<p id="alertLastName">Please enter last name</p>
+				
 				<label for ="email">Email</label>
-				<input type ="email" id ="email" name="emailAddress">
-
+				<input type ="email" id ="emailCon" name="emailAddress" maxlength="30" oninput="warnEmailConValid('emailCon')" >
+				<p id="alertConEmail">Please enter e-mail addres</p>
+				
 				<label for ="comment">Comments</label>
-				<textarea id="comment" name="comment" style="height:200px">
+				<textarea id="comment" name="comments" style="height:200px" oninput="warnTextareaBlank('comment')">
 				</textarea>
-
+				<p id="alertTextarea">This filed should not be blank</p>
 				<input type="submit" value="Submit">
 			</form>
 		</div>

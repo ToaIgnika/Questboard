@@ -118,7 +118,7 @@ body
 }
 /*-------------------CONTENT*/
 
-.content1
+#content1
 {
 	width: 250px;
 	height: 250px;
@@ -157,7 +157,7 @@ body
 	border-radius:4px;
 	box-sizing: border-box;
 	margin-top: 6px;
-	margin-bottom: 16px;
+	margin-bottom: 10px;
 	margin-left: 0px;
 	resize: vertical;
 }
@@ -194,6 +194,14 @@ input[type="submit"]:hover{
 .contactForm label{
 	margin-left: 0px;
 }
+/*Alert:JS*/
+.contactForm p{
+	margin:0 0 10px 0;
+	font-size:14px;
+	color:red;
+	visibility:hidden;
+}	
+
 .userForm input[type="text"],
 .userForm input[type="password"],
 .userForm input[type="email"],
@@ -208,7 +216,13 @@ input[type="submit"]:hover{
 	margin-left: 0px;
 	resize: vertical;
 }
-
+/*Alert:JS*/
+.userForm p{
+	margin:0 0 5px 0;
+	font-size:10px;
+	color:red;
+	visibility:hidden;
+}	
 
 .userForm{
 	float: left;
@@ -216,7 +230,6 @@ input[type="submit"]:hover{
 	border-top: 1px solid #FDA474;
 	width: 100%;
 }
-
 
 #formHead {
 	width: 100%;
@@ -265,6 +278,7 @@ label{
 table
 {
 	margin: auto;
+	padding: auto;
 	border: hidden #FDA474 15px;
 	width: 100%;
 }

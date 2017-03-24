@@ -9,7 +9,7 @@
 <body>
 	<div id="main">
 		<div id="formHead">
-			<img src="images/banner.png" alt="bannerImage">
+			<img src="images/banner.png"/>
 		</div>
 
 		<div id="menu">
@@ -32,21 +32,25 @@
 				<tr>
 					<td>
 						<h2>Welcome</h2>
-						<form name = "login" method = "post" action= "http://webdevfoundations.net/scripts/formdemo.asp">
+						<form id = "loginFrom" name = "login" method = "post" action= "http://webdevfoundations.net/scripts/formdemo.asp" onsubmit="return SubmitLogin()">
 							<label>Username:<br>
-								<input type = "text" name ="username" id = "username"><br></label>
+								<input type = "text" name ="username" id = "username" maxlength="15" oninput="warnNameValidL('username')"><br></label>
+								<p id="alertUserNameL">Please enter username</p>
 								<label>Password:<br>
-									<input type = "password" name ="password" id = "password"><br></label>
+									<input type = "password" name ="password" id = "password" maxlength="10" oninput="warnPasswordValidL('password')"><br></label>
+									<p id="alertPasswordL">Please enter password</p>
 									<input type="submit" value="Submit">
 								</form>
 							</td>
 							<td>
 								<h2>Sign up</h2>
-								<form method = "post" action= "http://webdevfoundations.net/scripts/formdemo.asp" name = "reg">
-									<input type = "text" name ="username" id = "reguser" placeholder="username"><br>
-									<input type = "email" name ="email" id = "email" placeholder = "email"><br>
-									<input type = "password" name ="password" id = "regpassword" placeholder = "password"><br>
-									<input type = "password" name ="conpassword" id = "conpassword" placeholder = "confirm password"><br>
+								<form id="signupForm" method = "post" action= "http://webdevfoundations.net/scripts/formdemo.asp" name = "reg" onsubmit="return submitSignup()">
+									<input type = "text" name ="username" id = "reguser" placeholder="username" maxlength="10" oninput="warnNameValid('reguser')"><br>
+									<p id="alertUserName">Please enter username</p>
+									<input type = "email" name ="email" id = "email" placeholder = "email" maxlength="30" oninput="warnEmailValid('email')"><br>
+									<p id="alertEmail">Please enter e-mail addres</p>
+									<input type = "password" name ="password" id = "regpassword" placeholder = "password" maxlength="10" oninput="warnPasswordValid('regpassword')"><br>
+									<p id="alertPassword">Please enter password</p>
 									<input type="submit" value="Submit">
 								</form>
 							</td>
