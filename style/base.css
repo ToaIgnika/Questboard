@@ -80,7 +80,7 @@ body
 }
 .navbar li a
 {
-    display:block;
+	display:block;
 	text-align:center;
 	padding:14px 30px;
 	text-decoration:none;
@@ -183,11 +183,41 @@ body
 }
 
 #formHead {
+
 	width: 100%;
 	color: white;
-	font-size: 50px;
+	font-size: 90px;
 	text-align: center;
+	letter-spacing: 12px;
+	text-shadow:
+	-4px -4px 0 #FDA474,
+	4px -4px 0 #FDA474,
+	-4px 4px 0 #FDA474,
+	4px 4px 0 #FDA474;
+	border-top: 1px solid #FDA474;
 }
+
+#skype {
+	width: 100%;
+	float: left;
+}
+
+#prescype {
+	max-width: 60%;
+	margin: 0px;
+	float: left;
+}
+#SkypeButton_Call_godoftoa_1 {
+	max-width: 40%;
+	max-height: 120px;
+	float:left;
+	margin: 0px;
+}
+#SkypeButton_Call_godoftoa_1  img {
+	margin:0 !important;
+	vertical-align:middle !important;
+}
+
 
 /*--------------ALEX*/
 
