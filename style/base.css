@@ -199,10 +199,10 @@ body
 
 #skype {
 	width: 100%;
-	float: left;
+	height: 120px;
 }
 
-#prescype {
+#preskype {
 	max-width: 60%;
 	margin: 0px;
 	float: left;
