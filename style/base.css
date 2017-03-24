@@ -142,9 +142,9 @@ body
 }
 .contactForm label{
 	margin-left: 0px;
-
 }
 .contactForm input[type="text"],
+.contactForm input[type="password"],
 .contactForm input[type="email"],
 .contactForm textarea{
 	width : 100%;
@@ -178,8 +178,8 @@ body
 .contactForm{
 	float: left;
 	border-radius: 5px;
-	padding:10px;
 	border-top: 1px solid #FDA474;
+	width: 100%;
 }
 
 #formHead {
@@ -194,8 +194,9 @@ body
 table
 {
 	margin: auto;
-	width: 100%;
+	padding: auto;
 	border: solid #FDA474 15px;
+	width: 100%;
 }
 table th
 {
@@ -209,23 +210,11 @@ table h2
 }
 td
 {
-	width: 50%;
+	width: auto;
 	padding-left: 10%;
 	padding-right: 10%;
 }
-form
-{
-	color: white;
-}
-input
-{
-	width:75%;
-	margin-bottom: 10px;
-}
-input[type = submit]
-{
-	width: auto;
-}
+
 .header
 {
 	text-align: center;
