@@ -175,12 +175,59 @@ body
 
 }
 
-.contactForm{
+.userForm{
 	float: left;
 	border-radius: 5px;
 	border-top: 1px solid #FDA474;
 	width: 100%;
 }
+.userForm h1{
+	margin-left: 100px;
+	font-size: 40px;
+	color: white;
+}
+.contactForm label{
+	margin-left: 0px;
+}
+.userForm input[type="text"],
+.userForm input[type="password"],
+.userForm input[type="email"],
+.userForm textarea{
+	width : 100%;
+	padding:12px;
+	border: 1px solid #ccc;
+	border-radius:4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	margin-left: 0px;
+	resize: vertical;
+}
+
+.userForm input[type="submit"]{
+	background-color : black;
+	color: white;
+	padding :12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-align: center;
+	margin: auto;
+}
+
+.userForm input[type="submit"]:hover{
+	background-color: #FDA474;
+	color: black;
+
+}
+
+.userForm{
+	float: left;
+	border-radius: 5px;
+	border-top: 1px solid #FDA474;
+	width: 100%;
+}
+
 
 #formHead {
 
