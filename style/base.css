@@ -25,21 +25,37 @@ body
 	line-height:0;
 	text-indent:80px;
 }
+.house{
+		padding-left: 0;
+		float: left;
+		width: 100%;
+		list-style-type:none;
+		background-color:#333;
+		font-size: 2em;
+}
+.house li a
+{
+	display:block;
+	text-align:center;
+	padding:14px 30px;
+	text-decoration:none;
+	color:white;
+	border-top: solid #FDA474 1px;
+	border-bottom: solid #FDA474 1px;
+	
+}
+.house li a:hover
+{
+	background-color:#FDA474;
+}
 
 .firstSentence{
 	font-size: 15px;
 }
 
-.secondSentence{
-	font-size: 50px;
-	padding-top:0px;
+#logo{
+	padding-bottom: 50px;
 }
-
-.secondSentence img{
-	width:80px;
-	height:60px;
-}
-
 .img {
 	width: 100%;
 	text-align: center;
