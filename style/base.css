@@ -149,7 +149,20 @@ body
 	padding-left: 7px;
 	padding-right: 3px;
 }
-
+/*-------------------Card of the Week----*/
+#cohImage{
+	float: left;
+}
+#cohText{
+	float: right;
+	width:  400px;
+	margin-right: 2em;
+	margin-top:auto;
+	margin-bottom: auto;
+}
+#next{
+	float: right;
+}
 /*-----------------CONTACT FORM*/
 .contactForm {
 	margin-left: 15px;
