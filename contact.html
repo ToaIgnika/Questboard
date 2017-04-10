@@ -9,19 +9,16 @@
 
 <body>
 	<div id="main">
-		<div id="formHead">
-			<img src="images/banner.png" alt="banner image"/>
-		</div>
+		
 
 		<div id="menu">
 			<ul class="navbar">
-				<li class="home"><a href="index.html"><img alt="logo" src="images/qboardlogo.png" width="49" height="49"></a></li>
-				<li><a href="hs/hs_news.html">News</a></li>
-				<li><a href="hs/hs_strategy.html">Strategy</a></li>
-				<li><a href="hs/hs_art.html">Art</a></li>
-				<li><a href="hs/hs_esport.html">Esports</a></li>
-				<li><a class="active" href="contact.html">Contact</a></li>
-				<li class="login"><a href="form.html">Login</a></li>
+				<li class="home"><a href="../index.html"><img alt="logo" src="images/qboardlogo.png" width="49" height="49"></a></li>
+				<li><a href="hs/decks.html">Decks</a></li>
+				<li><a href="hs_strategy.html">Card of the week</a></li>
+				<li><a class = "active" href="../contact.html">Suggest a deck</a></li>
+				<li><a href="hs_esport.html">Forum</a></li>
+				<li class="login"><a href="../form.html">Login</a></li>
 			</ul>
 		</div>
 		<div id="skype">
@@ -34,7 +31,7 @@
 		</div>
 		<div class="contactForm">
 
-			<form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" id="inputform" onsubmit="return submitContact()">
+			<form action="formmail.php" method="post" id="inputform" onsubmit="return submitContact()">
 				<label for ="fname">First name</label>
 				<input type="text" id ="fname" name="firstname" maxlength="10" oninput="warnFirstNameValid('fname')">
 				<p id="alertFirstName">Please enter first name</p>
@@ -45,6 +42,14 @@
 
 				<label for ="email">Email</label>
 				<input type ="email" id ="emailCon" name="emailAddress" maxlength="30" oninput="warnEmailConValid('emailCon')" >
+				<p id="alertConEmail">Please enter e-mail addres</p>
+
+				<label for ="username">Username</label>
+				<input type ="text" id ="username" name="username" maxlength="30" oninput="warnUsernameValid('username')" >
+				<p id="alertConEmail">Please enter e-mail addres</p>
+
+				<label for ="decklist">Decklist</label>
+				<input type ="file" id ="decklist" name="decklist" oninput="warnDecklistValid('decklist')" >
 				<p id="alertConEmail">Please enter e-mail addres</p>
 
 				<label for ="comment">Comments</label>

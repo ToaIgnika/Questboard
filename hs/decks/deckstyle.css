@@ -1,0 +1,29 @@
+body {
+  height: 500px;
+  width: 700px;
+  font-family: Tahoma, Calibri, sans-serif;
+  margin: auto;
+}
+
+.content {
+
+}
+
+.left {
+  width: 500px;
+  float: left;
+  margin: 5px;
+
+  color: white;
+
+}
+
+.right {
+  float: right;
+  width: 190px;
+}
+
+#deckimg {
+  width: 190px;
+  height: auto;
+}
