@@ -153,6 +153,12 @@ body
 #cohImage{
 	float: left;
 }
+#meat{
+	color: white;
+}
+#bottom{
+	margin-top: 2em;
+}
 #cohText{
 	float: right;
 	width:  400px;
@@ -162,7 +168,18 @@ body
 }
 #next{
 	float: right;
+	background-color:#FDA474;
+	text-decoration:none;
+	color: white;
+	padding: 5px;
 }
+#back{
+	background-color:#FDA474;
+	text-decoration:none;
+	color: white;
+	padding: 5px;
+}
+
 /*-----------------CONTACT FORM*/
 .contactForm {
 	margin-left: 15px;
