@@ -23,43 +23,28 @@
 	<meta name="author" content="LoadFoO" />
 	<meta name="description" content="Site description" />
 	<meta name="keywords" content="key, words" />
-	<title>LoadFoO [V2]</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+	<title>QuestBoard</title>
+	<link rel="stylesheet" type="text/css" href="../../style/base.css" media="screen" />
 	<link rel="shortcut icon" href="favicon.ico" />
 	<script type="text/javascript" src="js/textsizer.js"></script>
 	<script type="text/javascript" src="js/rel.js"></script>
 </head>
 
 <body>
-<div id="wrap">
-<div id="top">
-<h2><a href="#" title="Back to main page">LoadFoO [V2]</a></h2>
-<div id="menu">
-<ul>
-<li><a href="#" class="current">home</a></li>
-<li><a href="#">about</a></li>
-<li><a href="#">portofolio</a></li>
-<li><a href="#">contact</a></li>
-</ul>
-</div>
-</div>
+<div id="main">
+	<div id="menu">
+			<ul class="navbar">
+				<li class="home"><a href="index.html"><img alt="logo" src="../../images/qboardlogo.png" width="49" height="49"></a></li>
+				<li><a  href="hs/decks.html">Decks</a></li>
+				<li><a href="cotw/cofc.html">Card of the week</a></li>
+				<li><a class = "active" href="contact.html">Suggest a deck</a></li>
+				<li><a href = "forum.html">Forum</a></li>
+				<li class="login"><a href="../form.html">Login</a></li>
+			</ul>
+	</div>
 <div id="content">
 <div style="float: right;"><a href="javascript:ts('body',1)">[+]</a> | <a
 href="javascript:ts('body',-1)">[-]</a></div>
-<div id="left">
-<h2>Welcome to LoadFoO [V1]</h2>
-<p>Text Content Text <a href="#">Content Text</a> Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content.</p>
- <ul>
- <li>ul-li test.</li>
- <li>ul-li test.</li>
- <li>ul-li test.</li>
- <li>ul-li test.</li>
- <li>ul-li test.</li>
- </ul>
- <h2>Functionality or performance</h2>
- <p>Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content Text Content.
- </p>
-</div>
 <div id="right">
 	<div class="box">
 		<h2 style="margin-top:17px">Recent Entries</h2>
@@ -88,15 +73,6 @@ href="javascript:ts('body',-1)">[-]</a></div>
 			}
 		?>
 	</div>
-<ul id="nav">
-	<li><a href="#Home">Home</a></li>
-	<li><a href="#Archive">Archive</a></li>
-	<li><a href="#Link">Links</a></li>
-	<li><a href="#download">Download</a></li>
-	<li><a href="#support">Support</a></li>
-	<li><a href="#contact">Contact</a></li>
-</ul>
-</div>
 <div id="clear"></div></div>
 <div id="footer">
 <p>Copyright 2006 LoadFoO [V1]. Designed by <a href="http://loadfoo.org/" rel="external">LoadFoO</a>. Valid <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="external">CSS</a> &amp; <a href="http://validator.w3.org/check?uri=referer" rel="external">XHTML</a></p>
