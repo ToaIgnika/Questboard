@@ -6,12 +6,9 @@ if(isset($_POST['email'])) {
     $email_subject = "Deck suggestion";
 
 
-    $user_name = $_POST['username']; // required
     $first_name = $_POST['firstname']; // required
     $last_name = $_POST['lastname']; // required
     $email_from = $_POST['emailAddress']; // required
-    $mail->AddAttachment($_FILES['uploaded_file']['tmp_name'],
-                        $_FILES['uploaded_file']['name']);
     $comments = $_POST['comments']; // required
 
     $email_message = "Deck detailes.\n\n";
@@ -33,13 +30,15 @@ $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);
+echo "messege sent";
 ?>
+
 
 <!-- include your own success html here -->
 
 
 <?php
-$dest = "sent.html";
+$dest = "index.php";
 }
 ?>
 <script>

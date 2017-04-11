@@ -19,7 +19,7 @@
 
 <body>
 	<div id="main">
-		
+
 
 		<div id="menu">
 			<ul class="navbar">
@@ -57,10 +57,6 @@
 
 				<label for ="email">Email</label>
 				<input type ="email" id ="emailCon" name="emailAddress" maxlength="30" oninput="warnEmailConValid('emailCon')" >
-				<p id="alertConEmail">Please enter e-mail addres</p>
-
-				<label for ="username">Username</label>
-				<input type ="text" id ="username" name="username" maxlength="30" oninput="warnUsernameValid('username')" >
 				<p id="alertConEmail">Please enter e-mail addres</p>
 
 				<label for ="decklist">Decklist</label>
