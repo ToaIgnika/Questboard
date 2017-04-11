@@ -26,10 +26,10 @@
 				<li><a  href="../contact.php">Suggest a deck</a></li>
 				<li><a href = "../forum.php">Forum</a></li>
 				<li class="login"><?php if (isLoggedIn()){
-				echo "Welcome: ".$_SESSION['SESS_FIRST_NAME']."<br/>";
-				echo '<a href="../logout.php">Logout</a><br/>';
+				echo "Welcome: ".$_SESSION['SESS_FIRST_NAME']." ";
+				echo '<a href="../logout.php">Logout</a>';
 			} else {
-				echo '<a href="../form.php">Login</a><br/>';
+				echo '<a href="../form.php">Login</a>';
 			} ?></li>
 			</ul>
 		</div>
@@ -41,7 +41,7 @@
 		This card has shaped the many metas and has been the corner stone of many decks. Fandaral came into
 		the game with the Whispers of the Old Gods set with the old druid mainstay of Force of Nature being nerfed.
 		This card alone was able to keep druid as a combo class. What makes this card amazing is the combination of a 3/5 body on turn 4, and how its abbilty allows
-		for combos that would have been previously unheard of. </p>
+		for combos that would have been previously unheard of. He has been a staple in two recent meta decks the Yoggsauron druid and Jade druid.</p>
 		</div>
 		<div id = "bottom">
 			<a id="back" href="hs_news.html">Previous</a>

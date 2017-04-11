@@ -28,10 +28,10 @@
 				<li class="login"><?php
 			if (isLoggedIn()){
 				//question 1a
-				echo "Welcome: ".$_SESSION['SESS_FIRST_NAME']."<br/>";
-				echo '<a href="logout.php">Logout</a><br/>';
+				echo "Welcome: ".$_SESSION['SESS_FIRST_NAME']." ";
+				echo '<a href="logout.php">Logout</a>';
 			} else {
-				echo '<a href="form.php">Login</a><br/>';
+				echo '<a href="form.php">Login</a>';
 			}
 		?></li>
 				<li><a href="hs/decks.php">Our Decks</a></li>
