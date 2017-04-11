@@ -10,9 +10,7 @@ if(isset($_POST['email'])) {
     $first_name = $_POST['firstname']; // required
     $last_name = $_POST['lastname']; // required
     $email_from = $_POST['emailAddress']; // required
-    $mail->AddAttachment($_FILES['uploaded_file']['tmp_name'],
-                        $_FILES['uploaded_file']['name']);
-    $comments = $_POST['comments']; // required
+        $comments = $_POST['comments']; // required
 
     $email_message = "Deck detailes.\n\n";
 

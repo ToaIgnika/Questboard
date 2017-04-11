@@ -30,10 +30,10 @@
 				<li><a href="contact.php">Suggest a deck</a></li>
 				<li><a class = "active" href = "forum.php">Forum</a></li>
 				<li class="login"><?php if (isLoggedIn()){
-				echo "Welcome: ".$_SESSION['SESS_FIRST_NAME']."<br/>";
-				echo '<a href="logout.php">Logout</a><br/>';
+				echo "Welcome: ".$_SESSION['SESS_FIRST_NAME']." ";
+				echo '<a href="logout.php">Logout</a>';
 			} else {
-				echo '<a href="form.php">Login</a><br/>';
+				echo '<a href="form.php">Login</a>';
 			} ?></li>
 			</ul>
 			</div>		
