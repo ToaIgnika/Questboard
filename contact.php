@@ -28,7 +28,7 @@
 				<li><a href="cotw/cofc.php">Card of the week</a></li>
 				<li><a class = "active" href="contact.php">Suggest a deck</a></li>
 				<li><a href = "forum.php">Forum</a></li>
-				<li class="login"><<?php if (isLoggedIn()){
+				<li class="login"><?php if (isLoggedIn()){
 				echo "Welcome: ".$_SESSION['SESS_FIRST_NAME']."<br/>";
 				echo '<a href="logout.php">Logout</a><br/>';
 			} else {

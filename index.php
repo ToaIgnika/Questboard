@@ -25,10 +25,10 @@
 		</div>
 			<div id = pip>
 			<ul class="house">
-				<li><a href="hs/decks.html">Our Decks</a></li>
-				<li><a href="cotw/cofc.html">Card of the Week</a></li>
+				<li><a href="hs/decks.php">Our Decks</a></li>
+				<li><a href="cotw/cofc.php">Card of the Week</a></li>
 				<li><a href="forum.php">Forum</a></li>
-				<li><a href="contact.html">Suggest a Deck</a></li>
+				<li><a href="contact.php">Suggest a Deck</a></li>
 				<li class="login"><?php
 			if (isLoggedIn()){
 				//question 1a

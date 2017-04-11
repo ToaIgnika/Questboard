@@ -36,10 +36,10 @@
 			<div id="menu">
 			<ul class="navbar">
 				<li class="home"><a href="index.php"><img alt="logo" src="images/qboardlogo.png" width="49" height="49"></a></li>
-				<li><a  href="hs/decks.html">Decks</a></li>
-				<li><a href="cotw/cofc.html">Card of the week</a></li>
-				<li><a class = "active" href="contact.html">Suggest a deck</a></li>
-				<li><a href = "forum.html">Forum</a></li>
+				<li><a  href="hs/decks.php">Decks</a></li>
+				<li><a href="cotw/cofc.php">Card of the week</a></li>
+				<li><a href="contact.php">Suggest a deck</a></li>
+				<li><a href = "forum.php">Forum</a></li>
 				<li class="login"><?php if (isLoggedIn()){
 				echo "Welcome: ".$_SESSION['SESS_FIRST_NAME']."<br/>";
 				echo '<a href="logout.php">Logout</a><br/>';

@@ -1,6 +1,6 @@
 <?php
-	include 'functions.php';
-	require_once('config.php');
+	include '../functions.php';
+	require_once('../config.php');
 	session_start();
 
 	// Connect to server and select database.
@@ -153,16 +153,16 @@
 
 		<div id="menu">
 			<ul class="navbar">
-				<li class="home"><a href="../index.php"><img alt="logo" src="images/qboardlogo.png" width="49" height="49"></a></li>
+				<li class="home"><a href="../index.php"><img alt="logo" src="../images/qboardlogo.png" width="49" height="49"></a></li>
 				<li><a class = "active" href="decks.php">Decks</a></li>
 				<li><a  href="../cotw/cofc.php">Card of the week</a></li>
 				<li><a  href="../contact.php">Suggest a deck</a></li>
 				<li><a href = "../forum.php">Forum</a></li>
-				<li class="login"><<?php if (isLoggedIn()){
+				<li class="login"><?php if (isLoggedIn()){
 				echo "Welcome: ".$_SESSION['SESS_FIRST_NAME']."<br/>";
-				echo '<a href="logout.php">Logout</a><br/>';
+				echo '<a href="../logout.php">Logout</a><br/>';
 			} else {
-				echo '<a href="form.php">Login</a><br/>';
+				echo '<a href="../form.php">Login</a><br/>';
 			} ?></li>
 			</ul>
 		</div>
