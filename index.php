@@ -1,3 +1,14 @@
+<?php
+	include 'functions.php';
+	require_once('config.php');
+	session_start();
+
+	// Connect to server and select database.
+	($GLOBALS["___mysqli_ston"] = mysqli_connect(DB_HOST,  DB_USER,  DB_PASSWORD))or die("cannot connect, error: ".((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false)));
+	((bool)mysqli_query($GLOBALS["___mysqli_ston"], "USE " . constant('DB_DATABASE')))or die("cannot select DB, error: ".((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false)));
+	$tbl_name="topic"; // Table name
+?>
+
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
@@ -16,25 +27,19 @@
 			<ul class="house">
 				<li><a href="hs/decks.html">Our Decks</a></li>
 				<li><a href="cotw/cofc.html">Card of the Week</a></li>
-				<li><a href="forum.html">Art</a></li>
+				<li><a href="forum.php">Forum</a></li>
 				<li><a href="contact.html">Suggest a Deck</a></li>
-				<li class="login"><a href="../form.html">Login</a></li>
+				<li class="login"><?php
+			if (isLoggedIn()){
+				//question 1a
+				echo "Welcome: ".$_SESSION['SESS_FIRST_NAME']."<br/>";
+				echo '<a href="logout.php">Logout</a><br/>';
+			} else {
+				echo '<a href="form.php">Login</a><br/>';
+			}
+		?></li>
 			</ul>
 			</div>
-			<!--
-			<div class="img">
-				<a href="hs/hs_news.html"><img src="images/lol_imgC.jpg" alt="League of Legends Logo" ></a>
-			</div>
-			<div class="img">
-				<a href="hs/hs_news.html"><img src="images/hearthstone_img1C.jpg" alt="Hearthstone Logo"></a>
-			</div>
-			<div class="img">
-				<a href="hs/hs_news.html"><img src="images/dota2_imgC.jpg" alt="Dota2 Logo"></a>
-			</div>
-			<div class="img">
-				<a href="hs/hs_news.html"><img src="images/overwatch_img1C.jpg" alt="Overwatch Logo"></a>
-			</div>
-			-->
 		<div class ="footer"> <a href="http://jigsaw.w3.org/css-validator/check/referer">
 			<img style="border:0;width:88px;height:31px"
 				src="http://jigsaw.w3.org/css-validator/images/vcss"
