@@ -1,3 +1,13 @@
+<?php
+	include 'functions.php';
+	require_once('config.php');
+	session_start();
+
+	// Connect to server and select database.
+	($GLOBALS["___mysqli_ston"] = mysqli_connect(DB_HOST,  DB_USER,  DB_PASSWORD))or die("cannot connect, error: ".((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false)));
+	((bool)mysqli_query($GLOBALS["___mysqli_ston"], "USE " . constant('DB_DATABASE')))or die("cannot select DB, error: ".((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false)));
+	$tbl_name="topic"; // Table name
+?>
 <!DOCTYPE html>
 <html lang = "en">
 <head>
@@ -13,12 +23,17 @@
 
 		<div id="menu">
 			<ul class="navbar">
-				<li class="home"><a href="index.html"><img alt="logo" src="images/qboardlogo.png" width="49" height="49"></a></li>
-				<li><a  href="hs/decks.html">Decks</a></li>
-				<li><a href="cotw/cofc.html">Card of the week</a></li>
-				<li><a class = "active" href="contact.html">Suggest a deck</a></li>
-				<li><a href = "forum.html">Forum</a></li>
-				<li class="login"><a href="../form.html">Login</a></li>
+				<li class="home"><a href="index.php"><img alt="logo" src="images/qboardlogo.png" width="49" height="49"></a></li>
+				<li><a  href="hs/decks.php">Decks</a></li>
+				<li><a href="cotw/cofc.php">Card of the week</a></li>
+				<li><a class = "active" href="contact.php">Suggest a deck</a></li>
+				<li><a href = "forum.php">Forum</a></li>
+				<li class="login"><?php if (isLoggedIn()){
+				echo "Welcome: ".$_SESSION['SESS_FIRST_NAME']."<br/>";
+				echo '<a href="logout.php">Logout</a><br/>';
+			} else {
+				echo '<a href="form.php">Login</a><br/>';
+			} ?></li>
 			</ul>
 		</div>
 		<div id="skype">
