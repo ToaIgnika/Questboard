@@ -16,25 +16,17 @@
 			<ul class="house">
 				<li><a href="hs/decks.html">Our Decks</a></li>
 				<li><a href="cotw/cofc.html">Card of the Week</a></li>
-				<li><a href="forum/forum/index.php">Art</a></li>
+				<li><a href="forum.php">Forum</a></li>
 				<li><a href="contact.html">Suggest a Deck</a></li>
-				<li class="login"><a href="../form.html">Login</a></li>
+				<li class="login"><?php
+			if (isLoggedIn()){
+				echo '<a href="logout.php">Logout</a><br/>';
+			} else {
+				echo '<a href="login_form.php">Login</a><br/>';
+				}
+		?></li>
 			</ul>
 			</div>
-			<!--
-			<div class="img">
-				<a href="hs/hs_news.html"><img src="images/lol_imgC.jpg" alt="League of Legends Logo" ></a>
-			</div>
-			<div class="img">
-				<a href="hs/hs_news.html"><img src="images/hearthstone_img1C.jpg" alt="Hearthstone Logo"></a>
-			</div>
-			<div class="img">
-				<a href="hs/hs_news.html"><img src="images/dota2_imgC.jpg" alt="Dota2 Logo"></a>
-			</div>
-			<div class="img">
-				<a href="hs/hs_news.html"><img src="images/overwatch_img1C.jpg" alt="Overwatch Logo"></a>
-			</div>
-			-->
 		<div class ="footer"> <a href="http://jigsaw.w3.org/css-validator/check/referer">
 			<img style="border:0;width:88px;height:31px"
 				src="http://jigsaw.w3.org/css-validator/images/vcss"

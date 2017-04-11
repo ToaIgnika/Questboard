@@ -1,3 +1,9 @@
+<html lang = "en">
+	<head>
+		<meta charset="utf-8">
+		<title>questboard</title>
+		<link rel="stylesheet" href="style/base.css">
+	</head>
 <?php
 	require_once('config.php');
 
@@ -11,7 +17,19 @@
 	// ORDER BY id DESC is order result by descending
 	$result=mysqli_query($GLOBALS["___mysqli_ston"], $sql);
 ?>
-
+<body>
+		<div id="main">
+		<div id="menu">
+			<ul class="navbar">
+				<li class="home"><a href="index.html"><img alt="logo" src="images/qboardlogo.png" width="49" height="49"></a></li>
+				<li><a  href="hs/decks.html">Decks</a></li>
+				<li><a href="cotw/cofc.html">Card of the week</a></li>
+				<li><a class = "active" href="contact.html">Suggest a deck</a></li>
+				<li><a href = "forum.html">Forum</a></li>
+				<li class="login">text here</li>
+			</ul>
+			</div>
+			
 <table width="90%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#CCCCCC">
 <tr>
 <td width="6%" align="center" bgcolor="#E6E6E6"><strong>#</strong></td>
@@ -38,3 +56,5 @@ while($rows=mysqli_fetch_array($result)){ // Start looping table row
 <td colspan="5" align="right" bgcolor="#E6E6E6"><a href="add_topic_form.php"><strong>Create New Topic</strong> </a></td>
 </tr>
 </table>
+</div>
+</main>
