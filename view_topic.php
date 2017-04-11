@@ -42,7 +42,8 @@
 <?php
 $tbl_name2="response"; // Switch to table "response"
 
-$sql2="SELECT * FROM $tbl_name2 WHERE topic_id='$id'";
+$sql2="SELECT * FROM $tbl_name2 join members on
+members.member_id = response.member_id and topic_id='$id'";
 $result2=mysqli_query($GLOBALS["___mysqli_ston"], $sql2);
 
 while($rows=mysqli_fetch_array($result2)){
@@ -50,6 +51,9 @@ while($rows=mysqli_fetch_array($result2)){
 <table width="400" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
 <tr>
 <td><table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">
+
+
+
 <tr>
 <td bgcolor="#F8F7F1"><strong>ID</strong></td>
 <td bgcolor="#F8F7F1">:</td>
@@ -58,7 +62,7 @@ while($rows=mysqli_fetch_array($result2)){
 <tr>
 <td width="18%" bgcolor="#F8F7F1"><strong>Name</strong></td>
 <td width="5%" bgcolor="#F8F7F1">:</td>
-<td width="77%" bgcolor="#F8F7F1"></td>
+<td width="77%" bgcolor="#F8F7F1"><?php echo $rows['firstname']; ?></td>
 </tr>
 <tr>
 <td bgcolor="#F8F7F1"><strong>Response</strong></td>
@@ -78,6 +82,13 @@ while($rows=mysqli_fetch_array($result2)){
 }
 ((is_null($___mysqli_res = mysqli_close($GLOBALS["___mysqli_ston"]))) ? false : $___mysqli_res);
 ?>
+<?php
+	if(!isLoggedIn()){
+		echo "Please Log In to post comment";
+		exit();
+	}
+	?>
+
 
 <BR>
 <table width="400" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
