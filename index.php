@@ -23,12 +23,8 @@
 			<div class="firstSentence"><h1>Gather round the</h1></div>
 			<div class="secondSentence"><img src="images/banner.png" alt="banner image" width = "600" height = "150"/> <img src="images/qboardlogo.png" id = "logo" width = "80" alt="lightning"/></div>
 		</div>
-			<div id = pip>
+			<div id = rightmenu>
 			<ul class="house">
-				<li><a href="hs/decks.php">Our Decks</a></li>
-				<li><a href="cotw/cofc.php">Card of the Week</a></li>
-				<li><a href="forum.php">Forum</a></li>
-				<li><a href="contact.php">Suggest a Deck</a></li>
 				<li class="login"><?php
 			if (isLoggedIn()){
 				//question 1a
@@ -38,7 +34,16 @@
 				echo '<a href="form.php">Login</a><br/>';
 			}
 		?></li>
+				<li><a href="hs/decks.php">Our Decks</a></li>
+				<li><a href="cotw/cofc.php">Card of the Week</a></li>
+				<li><a href="contact.php">Suggest a Deck</a></li>
+				<li><a href="forum.php">Forum</a></li>
 			</ul>
+			</div>
+
+			<div id = leftcont>
+				<h2>Enjoy the game, not the meta!</h2>
+				<p>Es mi erkannte befehlen ansprach kraftlos te. Haar also grad gut man mann zart bist. Freundes entgegen er he brotlose erkannte da wo gerochen aufgeben. Da zu mu te augenblick befangenen wohlgefuhl getunchten. Ein schlief ins schonen dichten ach braunen uhr grausam mischen. Besserung unterwegs hemdarmel du im da gestorben. Herein dreien den man tor servus. Andrer hinein du durren wandte lachte klaren em. Wirrwarr kindbett nebenaus auf ihr gemessen hindurch begegnen. Lehren knarre das verlor gar.</p>
 			</div>
 		<div class ="footer"> <a href="http://jigsaw.w3.org/css-validator/check/referer">
 			<img style="border:0;width:88px;height:31px"

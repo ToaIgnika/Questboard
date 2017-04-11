@@ -26,24 +26,41 @@ body
 	line-height:0;
 	text-indent:80px;
 }
-p {
-  text-align: center;
+
+#leftcont {
+	float: left;
+	margin-left: 10px;
+	width: 340px;
+}
+
+#rightmenu {
+		text-align: right;
+		float: right;
+		margin-right: 20px;
+}
+
+.house {
+		list-style: none;
+}
+
+.house li {
+  text-align: right;
   font-size: 3em;
   margin: 5px 0 5px 0;
 }
 
-a {
+.house a {
   text-decoration: none;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
 
-p a:hover {
+.house li a:hover {
   color: white;
 }
 
-p a {
+.house li a {
 	color: #fff335;
   -webkit-animation: neon5 1.5s ease-in-out infinite alternate;
   -moz-animation: neon5 1.5s ease-in-out infinite alternate;
