@@ -10,6 +10,8 @@ body
 	float: left;
 	width: 100%;
 	background-color: #333;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 .menu {
 	float: left;
