@@ -60,7 +60,7 @@
 				<p id="alertConEmail">Please enter e-mail addres</p>
 
 				<label for ="decklist">Decklist</label>
-				<input type ="file" id ="decklist" name="decklist" oninput="warnDecklistValid('decklist')" >
+				<input type ="file" id ="decklist" name="image" oninput="warnDecklistValid('decklist')" >
 				<p id="alertConEmail">Please enter e-mail addres</p>
 
 				<label for ="comment">Comments</label>
