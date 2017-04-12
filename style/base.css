@@ -218,7 +218,7 @@ body
 	resize: vertical;
 }
 
- input[type="submit"]{
+.buttonZ {
 	background-color : black;
 	color: white;
 	padding :12px 20px;
@@ -230,7 +230,7 @@ body
 	border: solid #FDA474 1px;
 }
 
-input[type="submit"]:hover{
+.buttonZ:hover{
 	background-color: #FDA474;
 	color: black;
 

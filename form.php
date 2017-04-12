@@ -64,7 +64,7 @@
 								<label>Password:<br>
 									<input type = "password" name ="password" id = "password" maxlength="10"><br></label>
 									
-									<input type="submit" value="Login">
+									<input type="submit" class ="buttonZ" value="Login">
 								</form>
 							</td>
 							<td>
@@ -76,7 +76,7 @@
 									<input name="cpassword" type="password" id="cpassword" placeholder = "confirm password" /><br>
 									<input name="fname" type="text" placeholder="firstname" id="fname" /><br>
 									<input name="lname" type="text" placeholder="Last Name" id="lname" /><br>
-									<input type="submit" value="Register">
+									<input type="submit" class ="buttonZ" value="Register">
 								</form>
 							</td>
 					</table>

@@ -50,10 +50,10 @@ while($rows=mysqli_fetch_array($result)){ // Start looping table row
 ?>
 
 <tr>
-<td bgcolor="#333"><?php echo $rows['id']; ?></td>
-<td bgcolor="#333"><a href="view_topic.php?id=<?php echo $rows['id']; ?>"><?php echo $rows['topic']; ?></a><BR></td>
-<td align="center" bgcolor="#333"><?php echo $rows['datetime']; ?></td>
-<td align="center" bgcolor="#333"><?php echo $rows['firstname']." ".$rows['lastname'];?></td>
+<td bgcolor="#AAA" style = "color: #000000;"><?php echo $rows['id']; ?></td>
+<td bgcolor="#AAA" style = "color: #000000;"><a href="view_topic.php?id=<?php echo $rows['id']; ?>"><?php echo $rows['topic']; ?></a><BR></td>
+<td align="center" bgcolor="#AAA" style = "color: #000000;"><?php echo $rows['datetime']; ?></td>
+<td align="center" bgcolor="#AAA" style = "color: #000000;"><?php echo $rows['firstname']." ".$rows['lastname'];?></td>
 </tr>
 
 <?php
@@ -62,7 +62,7 @@ while($rows=mysqli_fetch_array($result)){ // Start looping table row
 ((is_null($___mysqli_res = mysqli_close($GLOBALS["___mysqli_ston"]))) ? false : $___mysqli_res);
 ?>
 <tr>
-<td colspan="5" align="right" bgcolor="#E6E6E6"><a href="add_topic_form.php"><strong>Create New Topic</strong> </a></td>
+<td colspan="5" align="right" bgcolor="#AAA"><a href="add_topic_form.php"><strong>Create New Topic</strong> </a></td>
 </tr>
 </table>
 </body>

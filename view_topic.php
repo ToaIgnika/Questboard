@@ -44,19 +44,19 @@
 <tr>
 <td><table width="100%" border="0" cellpadding="3" cellspacing="1" bordercolor="1" bgcolor="#FFFFFF">
 <tr>
-<td bgcolor="#F8F7F1"><strong><?php echo $rows['topic']; ?></strong></td>
+<td bgcolor="#AAA"><strong><?php echo $rows['topic']; ?></strong></td>
 </tr>
 
 <tr>
-<td bgcolor="#F8F7F1"><?php echo $rows['detail']; ?></td>
+<td bgcolor="#AAA"><?php echo $rows['detail']; ?></td>
 </tr>
 
 <tr>
-<td bgcolor="#F8F7F1"><strong>By :</strong> <?php echo $rows['firstname']; ?></td>
+<td bgcolor="#AAA"><strong>By :</strong> <?php echo $rows['firstname']; ?></td>
 </tr>
 
 <tr>
-<td bgcolor="#F8F7F1"><strong>Date/time : </strong><?php echo $rows['datetime']; ?></td>
+<td bgcolor="#AAA"><strong>Date/time : </strong><?php echo $rows['datetime']; ?></td>
 </tr>
 </table></td>
 </tr>
@@ -78,24 +78,24 @@ while($rows=mysqli_fetch_array($result2)){
 
 
 <tr>
-<td bgcolor="#F8F7F1"><strong>ID</strong></td>
-<td bgcolor="#F8F7F1">:</td>
-<td bgcolor="#F8F7F1"><?php echo $rows['id']; ?></td>
+<td bgcolor="#AAA"><strong>ID</strong></td>
+<td bgcolor="#AAA">:</td>
+<td bgcolor="#AAA"><?php echo $rows['id']; ?></td>
 </tr>
 <tr>
-<td width="18%" bgcolor="#F8F7F1"><strong>Name</strong></td>
-<td width="5%" bgcolor="#F8F7F1">:</td>
-<td width="77%" bgcolor="#F8F7F1"><?php echo $rows['firstname']; ?></td>
+<td width="18%" bgcolor="#AAA"><strong>Name</strong></td>
+<td width="5%" bgcolor="#AAA">:</td>
+<td width="77%" bgcolor="#AAA"><?php echo $rows['firstname']; ?></td>
 </tr>
 <tr>
-<td bgcolor="#F8F7F1"><strong>Response</strong></td>
-<td bgcolor="#F8F7F1">:</td>
-<td bgcolor="#F8F7F1"><?php echo $rows['response']; ?></td>
+<td bgcolor="#AAA"><strong>Response</strong></td>
+<td bgcolor="#AAA">:</td>
+<td bgcolor="#AAA"><?php echo $rows['response']; ?></td>
 </tr>
 <tr>
-<td bgcolor="#F8F7F1"><strong>Date/Time</strong></td>
-<td bgcolor="#F8F7F1">:</td>
-<td bgcolor="#F8F7F1"><?php echo $rows['datetime']; ?></td>
+<td bgcolor="#AAA"><strong>Date/Time</strong></td>
+<td bgcolor="#AAA">:</td>
+<td bgcolor="#AAA"><?php echo $rows['datetime']; ?></td>
 </tr>
 </table></td>
 </tr>
@@ -114,11 +114,11 @@ while($rows=mysqli_fetch_array($result2)){
 
 
 <BR>
-<table width="400" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+<table width="400" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#AAA">
 <tr>
 <form name="form1" method="post" action="add_response.php">
 <td>
-<table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">
+<table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#AAA">
 <tr>
 <td valign="top"><strong>Response</strong></td>
 <td valign="top">:</td>
@@ -127,7 +127,7 @@ while($rows=mysqli_fetch_array($result2)){
 <tr>
 <td>&nbsp;</td>
 <td><input name="id" type="hidden" value="<?php echo $id; ?>"></td>
-<td><input type="submit" name="Submit" value="Submit"> <input type="reset" name="Submit2" value="Reset"></td>
+<td><input type="submit" name="Submit" class ="buttonZ" value="Submit"> <input type="reset" name="Submit2" class ="buttonZ" value="Reset"></td>
 </tr>
 </table>
 </td>
