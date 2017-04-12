@@ -46,7 +46,7 @@
 		</div>
 		<div class="contactForm">
 
-			<form action="formmail.php" method="post" id="inputform" onsubmit="return submitContact()">
+			<form action="deckmail.php" method="post" id="inputform" onsubmit="return submitContact()">
 				<label for ="fname">First name</label>
 				<input type="text" id ="fname" name="firstname" maxlength="10" oninput="warnFirstNameValid('fname')">
 				<p id="alertFirstName">Please enter first name</p>
