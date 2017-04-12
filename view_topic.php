@@ -1,3 +1,9 @@
+<html lang = "en">
+	<head>
+		<meta charset="utf-8">
+		<title>questboard</title>
+		<link rel="stylesheet" href="style/base.css">
+	</head>
 <?php
 
 	include 'functions.php';
@@ -17,6 +23,23 @@
 
 	$rows=mysqli_fetch_array($result);
 ?>
+<body>
+	<div id="main">
+		<div id="menu">
+			<ul class="navbar">
+				<li class="home"><a href="index.php"><img alt="logo" src="images/qboardlogo.png" width="49" height="49"></a></li>
+				<li><a  href="hs/decks.php">Decks</a></li>
+				<li><a href="cotw/cofc.php">Card of the week</a></li>
+				<li><a href="contact.php">Suggest a deck</a></li>
+				<li><a class = "active" href = "forum.php">Forum</a></li>
+				<li class="login"><?php if (isLoggedIn()){
+				echo "Welcome: ".$_SESSION['SESS_FIRST_NAME']." ";
+				echo '<a href="logout.php">Logout</a>';
+			} else {
+				echo '<a href="form.php">Login</a>';
+			} ?></li>
+			</ul>
+			</div>		
 <table width="400" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
 <tr>
 <td><table width="100%" border="0" cellpadding="3" cellspacing="1" bordercolor="1" bgcolor="#FFFFFF">
@@ -29,7 +52,7 @@
 </tr>
 
 <tr>
-<td bgcolor="#F8F7F1"><strong>By :</strong> <strong></td>
+<td bgcolor="#F8F7F1"><strong>By :</strong> <?php echo $rows['firstname']; ?></td>
 </tr>
 
 <tr>
@@ -111,3 +134,6 @@ while($rows=mysqli_fetch_array($result2)){
 </form>
 </tr>
 </table>
+</body>
+</div>
+</div>

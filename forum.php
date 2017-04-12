@@ -37,12 +37,12 @@
 			} ?></li>
 			</ul>
 			</div>		
-<table width="800" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#CCCCCC">
+<table width="800" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#222" style = "color: #FFFFFF;">
 <tr>
-<td width="5%" align="center" bgcolor="#E6E6E6"><strong>#</strong></td>
-<td width="50%" align="center" bgcolor="#E6E6E6"><strong>Topic</strong></td>
-<td width="20%" align="center" bgcolor="#E6E6E6"><strong>Date/Time</strong></td>
-<td width="20%" align="center" bgcolor="#E6E6E6"><strong>Name</strong></td>
+<td width="5%" align="center" bgcolor="#FDA474"><strong>#</strong></td>
+<td width="50%" align="center" bgcolor="#FDA474"><strong>Topic</strong></td>
+<td width="20%" align="center" bgcolor="#FDA474"><strong>Date/Time</strong></td>
+<td width="20%" align="center" bgcolor="#FDA474"><strong>Name</strong></td>
 </tr>
 
 <?php
@@ -50,10 +50,10 @@ while($rows=mysqli_fetch_array($result)){ // Start looping table row
 ?>
 
 <tr>
-<td bgcolor="#FFFFFF"><?php echo $rows['id']; ?></td>
-<td bgcolor="#FFFFFF"><a href="view_topic.php?id=<?php echo $rows['id']; ?>"><?php echo $rows['topic']; ?></a><BR></td>
-<td align="center" bgcolor="#FFFFFF"><?php echo $rows['datetime']; ?></td>
-<td align="center" bgcolor="#FFFFFF"><?php echo $rows['firstname']." ".$rows['lastname'];?></td>
+<td bgcolor="#333"><?php echo $rows['id']; ?></td>
+<td bgcolor="#333"><a href="view_topic.php?id=<?php echo $rows['id']; ?>"><?php echo $rows['topic']; ?></a><BR></td>
+<td align="center" bgcolor="#333"><?php echo $rows['datetime']; ?></td>
+<td align="center" bgcolor="#333"><?php echo $rows['firstname']." ".$rows['lastname'];?></td>
 </tr>
 
 <?php
