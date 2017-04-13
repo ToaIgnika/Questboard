@@ -194,7 +194,7 @@
 				<option id = "druidDef" value="art/druid.png">--select Druid deck--</option>
 				<option value="decks/druid/1.html">Tempo beast</option>
 				<option value="decks/druid/template.html">Extreme ramp</option>
-				<option value="decks/druid/1.html">Death is my bitch</option>
+				<option value="decks/druid/1.html">Death is not gonnna happen</option>
 			</select>
 		</div>
 
@@ -219,7 +219,7 @@
 		<div id = "paladinO" class = "error">
 			<select name="paladinO" onchange="document.getElementById('viewframe').src = this.options[this.selectedIndex].value">
 				<option id = "paladinDef" value="art/paladin.png">--select Paladin deck--</option>
-				<option value="decks/paladin/1.html">Tempo beast</option>
+				<option value="decks/paladin/1.html">Midrange Paladin</option>
 				<option value="decks/paladin/1.html">Tempo beast</option>
 				<option value="decks/paladin/1.html">Tempo beast</option>
 			</select>
@@ -228,7 +228,7 @@
 		<div id = "priestO" class = "error">
 			<select name="priestO" onchange="document.getElementById('viewframe').src = this.options[this.selectedIndex].value">
 				<option id = "priestDef" value="art/priest.png">--select Priest deck--</option>
-				<option value="decks/priest/1.html">Tempo beast</option>
+				<option value="decks/priest/1.html">Tempo</option>
 				<option value="decks/priest/1.html">Tempo beast</option>
 				<option value="decks/priest/1.html">Tempo beast</option>
 			</select>
