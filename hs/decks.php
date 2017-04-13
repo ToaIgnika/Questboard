@@ -246,7 +246,7 @@
 		<div id = "shamanO" class = "error">
 			<select name="shamanO" onchange="document.getElementById('viewframe').src = this.options[this.selectedIndex].value">
 				<option id = "shamanDef" value="art/shaman.png">--select Shaman deck--</option>
-				<option value="decks/shaman/1.html">Tempo beast</option>
+				<option value="decks/shaman/1.html">Elemental Shaman</option>
 				<option value="decks/shaman/1.html">Tempo beast</option>
 				<option value="decks/shaman/1.html">Tempo beast</option>
 			</select>
@@ -264,7 +264,7 @@
 		<div id = "warriorO" class = "error">
 			<select name="warriorO" onchange="document.getElementById('viewframe').src = this.options[this.selectedIndex].value">
 				<option id = "warriorDef" value="art/warrior.png">--select Warrior deck--</option>
-				<option value="decks/warrior/1.html">Tempo beast</option>
+				<option value="decks/warrior/1.html">PIRATE WARRIOR</option>
 				<option value="decks/warrior/1.html">Tempo beast</option>
 				<option value="decks/warrior/1.html">Tempo beast</option>
 			</select>
