@@ -271,7 +271,7 @@
 		</div>
 
 			<br><br>
-			<iframe name="iframe" id="viewframe" height="500px" width="780px" src="https://admissions.vanderbilt.edu/insidedores/manage/wp-content/uploads/doge-pattern-27481-2880x1800.jpg"></iframe>
+			<iframe name="iframe" id="viewframe" height="500px" width="780px" src="buffer.png"></iframe>
 		</div>
 
 		<div class="footer">
