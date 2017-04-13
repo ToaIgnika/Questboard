@@ -202,8 +202,8 @@
 			<select name="hunterO" onchange="document.getElementById('viewframe').src = this.options[this.selectedIndex].value">
 				<option id = "hunterDef" value="art/hunter.png">--select Hunter deck--</option>
 				<option value="decks/hunter/template.html">Tempo beast</option>
-				<option value="decks/hunter/template.html">Tempo beast</option>
-				<option value="decks/hunter/1.html">Tempo beast</option>
+				<option value="decks/hunter/2.html">Miracle Quest Hunter</option>
+				<option value="decks/hunter/1.html">Faster(Fast Hunter)</option>
 			</select>
 		</div>
 
