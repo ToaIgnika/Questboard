@@ -28,7 +28,7 @@
 				<li class="login"><?php
 			if (isLoggedIn()){
 				//question 1a
-				echo "Welcome: ".$_SESSION['SESS_FIRST_NAME']." ";
+				echo "Welcome: ".$_SESSION['SESS_FIRST_NAME']."<br/>";
 				echo '<a href="logout.php">Logout</a>';
 			} else {
 				echo '<a href="form.php">Login</a>';
@@ -43,7 +43,7 @@
 
 			<div id = leftcont>
 				<h2>Enjoy the game, not the meta!</h2>
-				<p>Es mi erkannte befehlen ansprach kraftlos te. Haar also grad gut man mann zart bist. Freundes entgegen er he brotlose erkannte da wo gerochen aufgeben. Da zu mu te augenblick befangenen wohlgefuhl getunchten. Ein schlief ins schonen dichten ach braunen uhr grausam mischen. Besserung unterwegs hemdarmel du im da gestorben. Herein dreien den man tor servus. Andrer hinein du durren wandte lachte klaren em. Wirrwarr kindbett nebenaus auf ihr gemessen hindurch begegnen. Lehren knarre das verlor gar.</p>
+				<p>You love to play HearthStone, but you can't enjoy the game as much as you want? Are you tired of same decks across the ladder? Do you want to try out now things on equal terms with against other enthusiasts? Then you came to the right neighbourhood! Questboard provides you amazing experience of exploring and testing various decks! You are welcomed to explore, discuss, test and add any non-meta decks in HearthStone!</p>
 			</div>
 		<div class ="footer"> <a href="http://jigsaw.w3.org/css-validator/check/referer">
 			<img style="border:0;width:88px;height:31px"

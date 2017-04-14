@@ -35,15 +35,17 @@
 		</div>
 		<div id= "meat">
 		<h2 id = "cohTitle">Card of the Week</h2>
-		<h3 id = "cohSub">Week of April 9-15 2017</h3>
-		<img id ="cohImg" src="../images/first.png" alt = "Fandral Steghelm" width = "286" height = "395"/>
-		<p id = "cohText">This week we are looking at N'Zoths First Mate. 
-		This card is the reason pirate warrior rose to fame in the mean streets of gadjetzan meta. Now your thinking was it not Patches that made the pirate decks so strong and i like to debate that although patches is a staple card in the deck it is N'Zoth first mate that makes the deck so good. The most important thing to look at during this meta was that the only good taunt was second rate bruiser and it didnt get on the board till turn 3. Until then with First Mate, Patches, and another cheap pirate you would have dealt at least 10 points of damage to the enemy hero.
-		And by the time a taunt rolls around it is already to late you will have board control. What makes First mate so strong is the 1-3 wepon it allows for pirate sytnergy and it helps outtrade a faster aggro deck like face hunter. I look forward to the future when pirates return to fame as the best deck in the near future.</p>
+		<h3 id = "cohSub">Week of April 2-8 2017</h3>
+		<img id ="cohImg" src="../images/fandral.png" alt = "Fandral Steghelm" width = "286" height = "395"/>
+		<p id = "cohText">For the first card of the week we are looking at Fanderal Steghelm. 
+		This card has shaped the many metas and has been the corner stone of many decks. Fandaral came into
+		the game with the Whispers of the Old Gods set with the old druid mainstay of Force of Nature being nerfed.
+		This card alone was able to keep druid as a combo class. What makes this card amazing is the combination of a 3/5 body on turn 4, and how its abbilty allows
+		for combos that would have been previously unheard of. He has been a staple in two recent meta decks the Yoggsauron druid and Jade druid. In yoggsauron druid he is used as 4 that either is a pseudo taunt or will create tons of value in your deck. In Jade druid it is used during the miracle finisher where the player combos fanderal jade idol and Gadjetzan Auctioneer.</p>
 		</div>
 		<div id = "bottom">
-			<a id="back" href="cof1.php">Previous</a>
-			<a id="next" href="#">Next</a>
+			<a id="back" href="#">Previous</a>
+			<a id="next" href="cofc.php">Next</a>
 	
 		<div class="footer">
 			<p>Disclaimer &copy; : Team 24</p>

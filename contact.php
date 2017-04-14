@@ -59,9 +59,9 @@
 				<input type ="email" id ="emailCon" name="emailAddress" maxlength="30" oninput="warnEmailConValid('emailCon')" >
 				<p id="alertConEmail">Please enter e-mail addres</p>
 
-				<label for ="decklist">Decklist</label>
-				<input type ="file" id ="decklist" name="image" oninput="warnDecklistValid('decklist')" >
-				<p id="alertConEmail">Please enter e-mail addres</p>
+				<label for ="uploaded_file">Decklist</label>
+				<input type ="text" id ="decklist" name="decklist" oninput="warnDecklistValid('decklist')" >
+				<p id="alertConEmail">Please provide decklist link</p>
 
 				<label for ="comment">Comments</label>
 				<textarea id="comment" name="comments" style="height:200px" oninput="warnTextareaBlank('comment')">

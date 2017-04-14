@@ -194,16 +194,16 @@
 				<option id = "druidDef" value="art/druid.png">--select Druid deck--</option>
 				<option value="decks/druid/1.html">Tempo beast</option>
 				<option value="decks/druid/template.html">Extreme ramp</option>
-				<option value="decks/druid/1.html">Death is my bitch</option>
+				<option value="decks/druid/1.html">Death is not gonnna happen</option>
 			</select>
 		</div>
 
 		<div id = "hunterO" class = "error">
 			<select name="hunterO" onchange="document.getElementById('viewframe').src = this.options[this.selectedIndex].value">
 				<option id = "hunterDef" value="art/hunter.png">--select Hunter deck--</option>
-				<option value="decks/hunter/template.html">Tempo beast</option>
-				<option value="decks/hunter/template.html">Tempo beast</option>
-				<option value="decks/hunter/1.html">Tempo beast</option>
+				<option value="decks/hunter/3.html">MidRange Quester</option>
+				<option value="decks/hunter/2.html">Miracle Quest Hunter</option>
+				<option value="decks/hunter/1.html">Faster(Fast Hunter)</option>
 			</select>
 		</div>
 
@@ -219,7 +219,7 @@
 		<div id = "paladinO" class = "error">
 			<select name="paladinO" onchange="document.getElementById('viewframe').src = this.options[this.selectedIndex].value">
 				<option id = "paladinDef" value="art/paladin.png">--select Paladin deck--</option>
-				<option value="decks/paladin/1.html">Tempo beast</option>
+				<option value="decks/paladin/1.html">Midrange Paladin</option>
 				<option value="decks/paladin/1.html">Tempo beast</option>
 				<option value="decks/paladin/1.html">Tempo beast</option>
 			</select>
@@ -228,7 +228,7 @@
 		<div id = "priestO" class = "error">
 			<select name="priestO" onchange="document.getElementById('viewframe').src = this.options[this.selectedIndex].value">
 				<option id = "priestDef" value="art/priest.png">--select Priest deck--</option>
-				<option value="decks/priest/1.html">Tempo beast</option>
+				<option value="decks/priest/1.html">Tempo</option>
 				<option value="decks/priest/1.html">Tempo beast</option>
 				<option value="decks/priest/1.html">Tempo beast</option>
 			</select>
@@ -246,7 +246,7 @@
 		<div id = "shamanO" class = "error">
 			<select name="shamanO" onchange="document.getElementById('viewframe').src = this.options[this.selectedIndex].value">
 				<option id = "shamanDef" value="art/shaman.png">--select Shaman deck--</option>
-				<option value="decks/shaman/1.html">Tempo beast</option>
+				<option value="decks/shaman/1.html">Elemental Shaman</option>
 				<option value="decks/shaman/1.html">Tempo beast</option>
 				<option value="decks/shaman/1.html">Tempo beast</option>
 			</select>
@@ -264,14 +264,14 @@
 		<div id = "warriorO" class = "error">
 			<select name="warriorO" onchange="document.getElementById('viewframe').src = this.options[this.selectedIndex].value">
 				<option id = "warriorDef" value="art/warrior.png">--select Warrior deck--</option>
-				<option value="decks/warrior/1.html">Tempo beast</option>
+				<option value="decks/warrior/1.html">PIRATE WARRIOR</option>
 				<option value="decks/warrior/1.html">Tempo beast</option>
 				<option value="decks/warrior/1.html">Tempo beast</option>
 			</select>
 		</div>
 
 			<br><br>
-			<iframe name="iframe" id="viewframe" height="500px" width="780px" src="https://admissions.vanderbilt.edu/insidedores/manage/wp-content/uploads/doge-pattern-27481-2880x1800.jpg"></iframe>
+			<iframe name="iframe" id="viewframe" height="500px" width="780px" src="buffer.png"></iframe>
 		</div>
 
 		<div class="footer">
