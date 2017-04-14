@@ -45,7 +45,7 @@
 		</div>
 		<div id = "bottom">
 			<a id="back" href="#">Previous</a>
-			<a id="next" href="cofc.html">Next</a>
+			<a id="next" href="cofc.php">Next</a>
 	
 		<div class="footer">
 			<p>Disclaimer &copy; : Team 24</p>

@@ -42,7 +42,7 @@
 		And by the time a taunt rolls around it is already to late you will have board control. What makes First mate so strong is the 1-3 wepon it allows for pirate sytnergy and it helps outtrade a faster aggro deck like face hunter. I look forward to the future when pirates return to fame as the best deck in the near future.</p>
 		</div>
 		<div id = "bottom">
-			<a id="back" href="cof1.html">Previous</a>
+			<a id="back" href="cof1.php">Previous</a>
 			<a id="next" href="#">Next</a>
 	
 		<div class="footer">
